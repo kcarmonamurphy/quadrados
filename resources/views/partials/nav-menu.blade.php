@@ -46,8 +46,16 @@
 </div>
 
 <div class="social-icons">
-	<img src="@asset('images/icons8-facebook.png')">
-	<img src="@asset('images/icons8-stackoverflow.png')">
-	<img src="@asset('images/icons8-linkedin.png')">
-	<img src="@asset('images/icons8-github.png')">
+	<a href="https://www.facebook.com/kevcom2">
+		<img src="@asset('images/icons8-facebook.png')">
+	</a>
+	<a href="https://stackexchange.com/users/10716557/kevin">
+		<img src="@asset('images/icons8-stackoverflow.png')">
+	</a>
+	<a href="https://www.linkedin.com/in/kevincm/">
+		<img src="@asset('images/icons8-linkedin.png')">
+	</a>
+	<a href="https://github.com/kevcom">
+		<img src="@asset('images/icons8-github.png')">
+	</a>
 </div>
