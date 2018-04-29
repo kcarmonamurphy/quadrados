@@ -1,0 +1,79 @@
+html {
+  background-color: $background-grey;
+  height: 100%;
+  margin: 0 !important;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  height: 100%;
+  max-width: 1280px;
+}
+
+[role=document] {
+  height: 100%;
+  display: flex;
+}
+
+main {
+  padding: 25px;
+  overflow-y: scroll;
+  width: 100%;
+}
+
+header.container {
+  display: block;
+
+  @include sidebar-breakpoint {
+    display: none;
+  }
+}
+
+aside.sidebar {
+  display: none;
+
+  @include sidebar-breakpoint {
+    display: block;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+p,
+a,
+input,
+time {
+  font-family: 'Fira Mono', monospace;
+  font-weight: normal;
+  color: #252525;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+h3,
+input {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+p {
+  font-size: 14px;
+}
+

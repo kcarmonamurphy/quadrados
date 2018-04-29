@@ -1,0 +1,26 @@
+aside.sidebar {
+  background-color: white;
+  width: 350px;
+  overflow-y: scroll;
+}
+
+.sidebar-container {
+  margin: 30px;
+}
+
+.name-stacked {
+  h1 {
+    z-index: 5;
+    position: relative;
+    margin: 15px 0;
+    margin-top: -45px;
+  }
+
+  .grey-square {
+    height: 45px;
+    width: 45px;
+    background-color: $background-grey;
+  }
+
+  margin-bottom: 30px;
+}

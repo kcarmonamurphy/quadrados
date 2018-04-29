@@ -1,0 +1,44 @@
+.sidebar-section {
+  margin: 25px 0;
+
+  h3 {
+    margin: 6px 0;
+  }
+}
+
+.social-icons {
+  padding-bottom: 25px;
+}
+
+a:hover > h3 {
+  background-color: $background-grey;
+}
+
+input[type=search] {
+  background-color: white;
+  background-image: url('../images/icons8-search.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding-left: 40px;
+  height: 45px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  width: 100%;
+}
+
+input[type=submit] {
+  height: 45px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-left: 0;
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+form[role=search] {
+  display: flex;
+
+  label {
+    width: 100%;
+  }
+}
