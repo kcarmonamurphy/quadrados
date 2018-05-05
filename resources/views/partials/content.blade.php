@@ -1,7 +1,7 @@
 <article @php(post_class())>
 	<div class="article-tile-container">
 	  <header>
-	    <h2 class="title"><a href="{{ get_permalink() }}">{{ get_the_title() }}</a></h2>
+	    <h3 class="title"><a href="{{ get_permalink() }}">{{ get_the_title() }}</a></h3>
 	    <!-- @include('partials/entry-meta') -->
 	  </header>
 	  <div class="excerpt">
