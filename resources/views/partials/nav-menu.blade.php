@@ -36,8 +36,8 @@
 
 <div class="sidebar-section">
 	<a href="/my-blogs"><h4><strong>blogs</strong></h4></a>
-	<a href="russia.kevincarmonamurphy.ca" target="_blank"><h4>russian blog</h4></a>
-	<a href="wwoofing.kevincarmonamurphy.ca" target="_blank"><h4>wwoofing blog</h4></a>
+	<a href="https://russia.kevincarmonamurphy.ca" target="_blank"><h4>russian blog</h4></a>
+	<a href="https://wwoofing.kevincarmonamurphy.ca" target="_blank"><h4>wwoofing blog</h4></a>
 </div>
 
 <div class="sidebar-section">
