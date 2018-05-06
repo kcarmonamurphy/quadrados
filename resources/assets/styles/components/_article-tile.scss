@@ -6,6 +6,11 @@
 
   .tile {
     word-break: break-all;
+
+    .thumbnail img {
+      width: 100%;
+      height: auto;
+    }
   }
 
   .tile-container {
@@ -58,9 +63,4 @@
       margin-right: 0;
     }
   }
-}
-
-.tile .thumbnail img {
-  width: 100%;
-  height: auto;
 }
