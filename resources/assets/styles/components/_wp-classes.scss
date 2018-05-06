@@ -58,3 +58,7 @@
 .alert {
   margin-bottom: 20px;
 }
+
+img[class^="wp-image-"] {
+  max-width: 100%;
+}
