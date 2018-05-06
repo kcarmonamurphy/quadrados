@@ -8,6 +8,12 @@ aside.sidebar {
   margin: 30px;
 }
 
+.home::before {
+  content: url('../images/icons8-home_filled.png');
+  vertical-align: -25%;
+  padding-right: 8px;
+}
+
 .name-stacked {
   h1 {
     z-index: 5;

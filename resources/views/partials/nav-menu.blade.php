@@ -1,5 +1,7 @@
 <div class="sidebar-section">
-	<h4 class="description">portfolio &<br />curriculum vitae</h4>
+	<a href="/">
+		<h4 class="description">portfolio & curriculum vitae</h4>
+	</a>
 </div>
 
 <div class="sidebar-section">
