@@ -4,6 +4,10 @@
   flex-flow: wrap;
   margin-bottom: 20px;
 
+  .tile {
+    word-break: break-all;
+  }
+
   .tile-container {
     padding: 20px;
     background-color: white;
