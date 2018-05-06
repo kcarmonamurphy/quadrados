@@ -7,9 +7,13 @@
   .tile {
     word-break: break-word;
 
-    .thumbnail img {
-      width: 100%;
-      height: auto;
+    .thumbnail {
+      margin-top: 20px;
+
+      img {
+        width: 100%;
+        height: auto;
+      }
     }
   }
 

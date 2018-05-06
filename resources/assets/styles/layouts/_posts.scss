@@ -1,3 +1,21 @@
-article img.full-width {
-  width: 100%;
+.entry-content {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: bold;
+  }
+
+  word-break: break-word;
+
+  img.full-width {
+    width: 100%;
+  }
+
+  .thumbnail img {
+    width: 100%;
+    height: auto;
+  }
 }
