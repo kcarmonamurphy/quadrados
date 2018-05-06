@@ -21,7 +21,7 @@
 <div class="sidebar-section">
 	<a href="/category/articles"><h4><strong>articles</strong></h4></a>
     @while (have_posts()) @php(the_post())
-  		<a href="{{ get_permalink() }}"><h4>{{ get_the_title() }}</h4></a>
+  		<a href="{{ get_permalink() }}"><h4 class="truncate">{{ get_the_title() }}</h4></a>
 	@endwhile
 </div>
 
@@ -30,19 +30,18 @@
 <div class="sidebar-section">
 	<a href="/category/portfolio"><h4 ><strong>portfolio</strong></h4></a>
     @while (have_posts()) @php(the_post())
-  		<a href="{{ get_permalink() }}"><h4>{{ get_the_title() }}</h4></a>
+  		<a href="{{ get_permalink() }}"><h4 class="truncate">{{ get_the_title() }}</h4></a>
 	@endwhile
 </div>
 
 <div class="sidebar-section">
-	<a href="#"><h4><strong>cv</strong></h4></a>
-	<a href="#"><h4>how to program?</h4></a>
-	<a href="#"><h4>how to program?</h4></a>
+	<a href="/my-blogs"><h4><strong>blogs</strong></h4></a>
+	<a href="russia.kevincarmonamurphy.ca" target="_blank"><h4>russian blog</h4></a>
+	<a href="wwoofing.kevincarmonamurphy.ca" target="_blank"><h4>wwoofing blog</h4></a>
 </div>
 
 <div class="sidebar-section">
-	<a href="#"><h4><strong>blogs</strong></h4></a>
-	<a href="#"><h4>russian blog</h4></a>
+	<a href="/cv"><h4><strong>resumé</strong></h4></a>
 </div>
 
 <div class="social-icons">

@@ -1,5 +1,16 @@
-export default {
-  init() {
+webpackHotUpdate(0,{
+
+/***/ 21:
+/*!**********************************!*\
+  !*** ./scripts/routes/common.js ***!
+  \**********************************/
+/*! exports provided: default */
+/*! exports used: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(jQuery, $) {/* harmony default export */ __webpack_exports__["a"] = ({
+  init: function init() {
     // JavaScript to be fired on all pages
 
     /* Truncate jQuery plugin */
@@ -16,11 +27,18 @@ export default {
     $('aside .truncate').succinct({
       size: 30,
     });
-    $('.tile .truncate').succinct({
+    $('article .truncate').succinct({
       size: 50,
     });
   },
-  finalize() {
+  finalize: function finalize() {
     // JavaScript to be fired on all pages, after page specific JS is fired
   },
-};
+});
+
+/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(/*! jquery */ 1), __webpack_require__(/*! jquery */ 1)))
+
+/***/ })
+
+})
+//# sourceMappingURL=0.36ec476f7a74d47cc6e4.hot-update.js.map

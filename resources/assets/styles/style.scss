@@ -12,6 +12,7 @@
 /** Import theme styles */
 
 /** Common */
+@import "common/reset";
 @import "common/variables";
 @import "common/media-queries";
 @import "common/fonts";
@@ -19,7 +20,6 @@
 
 /** Layouts */
 @import "layouts/sidebar";
-@import "layouts/footer";
 @import "layouts/pages";
 @import "layouts/posts";
 @import "layouts/tinymce";

@@ -4,7 +4,7 @@
   flex-flow: wrap;
   margin-bottom: 20px;
 
-  .article-tile-container {
+  .tile-container {
     padding: 20px;
     background-color: white;
     border: 1px solid #bbb;
@@ -12,11 +12,15 @@
     margin-bottom: 20px;
   }
 
+  .title {
+    margin-top: 0;
+  }
+
   @include phone {
-    article {
+    .tile {
       flex-basis: 100%;
 
-      .article-tile-container {
+      .tile-container {
         margin-left: 0;
         margin-right: 0;
       }
@@ -24,35 +28,35 @@
   }
 
   @include tablet {
-    article {
+    .tile {
       flex-basis: 50%;
     }
 
-    article:nth-child(2n+1) .article-tile-container {
+    .tile:nth-child(2n+1) .tile-container {
       margin-left: 0;
     }
 
-    article:nth-child(2n) .article-tile-container {
+    .tile:nth-child(2n) .tile-container {
       margin-right: 0;
     }
   }
 
   @include desktop {
-    article {
+    .tile {
       flex-basis: 33.33%;
     }
 
-    article:nth-child(3n+1) .article-tile-container {
+    .tile:nth-child(3n+1) .tile-container {
       margin-left: 0;
     }
 
-    article:nth-child(3n) .article-tile-container {
+    .tile:nth-child(3n) .tile-container {
       margin-right: 0;
     }
   }
 }
 
-article .thumbnail img {
+.tile .thumbnail img {
   width: 100%;
   height: auto;
 }

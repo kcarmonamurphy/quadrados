@@ -1,5 +1,5 @@
-<article @php(post_class())>
-	<div class="article-tile-container">
+<div class="tile" @php(post_class())>
+	<div class="tile-container">
 	  <header>
 	    <h3 class="title"><a href="{{ get_permalink() }}">{{ get_the_title() }}</a></h3>
 	    <!-- @include('partials/entry-meta') -->
@@ -11,4 +11,4 @@
 	    {{ the_post_thumbnail('medium') }}
 	  </div>
 	</div>
-</article>
+</div>
