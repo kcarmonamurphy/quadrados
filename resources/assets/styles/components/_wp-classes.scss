@@ -15,12 +15,14 @@
   display: block;
   margin: ($spacer / 2) auto;
   height: auto;
+  max-width: 100%;
 }
 
 .alignleft,
 .alignright {
   margin-bottom: ($spacer / 2);
   height: auto;
+  max-width: 100%;
 }
 
 @media (min-width: 30rem) {
@@ -57,8 +59,4 @@
 
 .alert {
   margin-bottom: 20px;
-}
-
-img[class^="wp-image-*"] {
-  max-width: 100%;
 }
