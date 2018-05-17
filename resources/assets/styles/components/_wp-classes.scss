@@ -20,9 +20,15 @@
 
 .alignleft,
 .alignright {
-  margin-bottom: ($spacer / 2);
   height: auto;
   max-width: 100%;
+  margin: ($spacer / 2) auto;
+  display: block;
+  margin-bottom: ($spacer / 2);
+
+  // @include phone {
+  //   width: 100%;
+  // }
 }
 
 @media (min-width: 30rem) {
