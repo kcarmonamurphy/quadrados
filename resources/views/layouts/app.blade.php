@@ -8,7 +8,7 @@
 
     <link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,700i&amp;subset=cyrillic" rel="stylesheet">
 
-    <link href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800" rel="stylesheet">
     
     @php(wp_head())
   </head>
